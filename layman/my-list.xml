@@ -14,4 +14,22 @@ File: /usr/portage/local/layman/my-list.xml
     <description>zx2c4 overlay (vaio addons)</description>
 
   </overlay>
+  <overlay
+      type = "git"
+      src  = "https://github.com/Bumblebee-Project/bumblebee-gentoo.git"
+      contact = "mva@gentoo.org"
+      name = "bumblebee">
+
+    <link>
+      http://github.com/Bumblebee-Project
+    </link>
+    <description>zx2c4 overlay (vaio addons)</description>
+
+  </overlay>
+
+
+
+
+
+
 </layman>
