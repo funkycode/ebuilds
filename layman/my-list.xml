@@ -1,0 +1,17 @@
+
+File: /usr/portage/local/layman/my-list.xml
+<?xml version="1.0" ?>
+<layman>
+  <overlay
+      type = "git"
+      src  = "http://git.zx2c4.com/portage"
+      contact = "jason@zx2c4.com"
+      name = "zx2c4 overlay">
+
+    <link>
+      http://zx2c4.com/
+    </link>
+    <description>zx2c4 overlay (vaio addons)</description>
+
+  </overlay>
+</layman>
